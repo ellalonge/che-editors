@@ -1,4 +1,5 @@
 id: che-incubator/che-idea-server/next
+registryUrl: https://eclipse-che.apps.okd.renji.in/plugin-registry/v3
 overrides:
   containers:
     - name: editor-injector
