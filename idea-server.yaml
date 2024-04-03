@@ -1,6 +1,5 @@
 id: che-incubator/che-idea-server/next
-registryUrl: https://eclipse-che.apps.okd.renji.in/plugin-registry/v3
-overrides:
+override:
   containers:
     - name: editor-injector
       memoryLimit: 1280Mi
